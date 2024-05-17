@@ -9,6 +9,11 @@ const PORT = process.env.PORT ?? 3001;
 server.use(middlewares);
 // Add this before server.use(router)
 
+server.use(jsonServer.rewriter({
+  '/api/*': '/$1',
+  '/products/:resource/:id/show': '/:resource/:id'
+}))
+
 server.use(router)
 
 
