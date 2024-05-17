@@ -39,7 +39,7 @@
       "id": 6,
       "name": "Star Wars 6",
       "price": 9.99,
-      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/.png",
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/starwars6.png",
       "category": "starwars"
     },
     {
