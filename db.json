@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Star Wars 1",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/starwars1.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": 2,
+      "name": "Star Wars 2",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/starwars2.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": 3,
+      "name": "Star Wars 3",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/starwars3.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": 4,
+      "name": "Star Wars 4",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/starwars4.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": 5,
+      "name": "Star Wars 5",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/starwars5.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": 6,
+      "name": "Star Wars 6",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/starwars5.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": 7,
+      "name": "Consola 1",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/consola1.png",
+      "category": "Consolas"
+    },
+    {
+      "id": 8,
+      "name": "Consola 2",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/consola2.png",
+      "category": "Consolas"
+    },
+    {
+      "id": 9,
+      "name": "Consola 3",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/consola3.png",
+      "category": "Consolas"
+    },
+    {
+      "id": 10,
+      "name": "Consola 4",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/consola4.png",
+      "category": "Consolas"
+    },
+    {
+      "id": 11,
+      "name": "Consola 5",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/consola5.png",
+      "category": "Consolas"
+    },
+    {
+      "id": 12,
+      "name": "Consola 6",
+      "price": 9.99,
+      "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/consola6.png",
+      "category": "Consolas"
+    }
+  ]
+}
