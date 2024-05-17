@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="/src/styles/header.css">
   <link rel="stylesheet" href="/src/styles/main.css">
   <link rel="stylesheet" href="/src/styles/footer.css">
+  <script defer type="module" src="./src/index.js"></script>
 </head>
 
 <body>
@@ -20,189 +21,22 @@
   <main>
     <section class="section__products">
       <h2 class="section__products--title">MIS PRODUCTOS:</h2>
-      <div class="section__products--container">
+      <div class="section__products--container" data-product-container>
 
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
+        <!--
+          <div class="section__products--card">
+            <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
+            <div class="product-card__info">
+              <h3 class="product-card__info--title">Stormtrooper</h3>
+              <div class="product-card__info--actions">
+                <span class="product-price">$ 60,00</span>
+                <button class="product-delete-btn">
+                  <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product1.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product1.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product1.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product1.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product1.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product1.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product2.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="section__products--card">
-          <img class="product-card__image" src="./src/assets/product1.png" alt="producto 1">
-          <div class="product-card__info">
-            <h3 class="product-card__info--title">Stormtrooper</h3>
-            <div class="product-card__info--actions">
-              <span class="product-price">$ 60,00</span>
-              <button class="product-delete-btn">
-                <img src="./src/assets/icons/delete-trash-icon.svg" alt="icono de eliminar producto">
-              </button>
-            </div>
-          </div>
-        </div>
+        -->
 
       </div>
     </section>
