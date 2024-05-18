@@ -40,4 +40,17 @@ export class Products {
       return [error, null];
     }
   }
+
+  static async delete (id) {
+    try {
+      const result = await fetch(`${API_URL}/products/${id}`, {method: 'DELETE'});
+
+      if (!result.ok) throw result;
+
+      const data = await result.json();
+      return [null, data];
+    } catch (error) {
+      return [error, null];
+    }
+  }
 }

@@ -111,7 +111,6 @@ main {
 
     & .form__actions--container {
       display: flex;
-      flex-direction: row-reverse;
       width: 100%;
       gap: 1.3rem;
 
