@@ -11,14 +11,14 @@ server.use(middlewares);
 
 server.use(jsonServer.rewriter({
   '/api/*': '/$1',
-  '/products/:resource/:id/show': '/:resource/:id'
+  '/products/:resource/:id/show': '/:resousrce/:id'
 }))
 
 server.use(router)
 
 
 server.listen(PORT, () => {
-    console.log('JSON Server is running')
+    console.log(`JSON Server is running on port ${PORT}`)
 })
 
 // Export the Server API

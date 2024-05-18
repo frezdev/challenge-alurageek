@@ -1,4 +1,4 @@
-import {Products} from './services/products.js';
+import { Products } from '../services/products.js';
 const $ = document;
 const productsContainer = $.querySelector('[data-product-container]');
 
@@ -23,7 +23,7 @@ const ProductCard = ({name, image, price}) => {
   return card;
 }
 
-export async function renderProducts () {
+export default async function renderProducts () {
   const [error, products] = await Products.getAll();
 
   if (error) return console.log(error);

@@ -1,3 +1,5 @@
-import {renderProducts} from './products.js';
+import renderProducts from './products/renderProducts.js';
+import createProduct from './products/createProduct.js';
 
-renderProducts()
+renderProducts();
+createProduct();

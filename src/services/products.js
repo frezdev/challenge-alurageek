@@ -19,4 +19,25 @@ export class Products {
       return [error, null];
     }
   }
+
+  static async create ({name, image, price, category}) {
+
+    const config = {
+      method: 'PORT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({name, image, price, category})
+    }
+
+    try {
+      const result = await fetch(`${API_URL}/products`, config);
+
+      if (!result.ok) throw result;
+
+      const data = await result.json();
+
+      return [null, data];
+    } catch (error) {
+      return [error, null];
+    }
+  }
 }
