@@ -100,13 +100,24 @@ main {
         border-radius: 50px;
         color: var(--blue);
         font-family: var(--ibm-plex-mono);
-        outline-color: var(--primary-color);
+        outline: none;
+
+        &.error {
+          border-color: red;
+        }
 
         &::placeholder {
           color: var(--blue);
         }
       }
 
+      & .input__error--message {
+        font-family: var(--ibm-plex-mono);
+        font-size: 1.4rem;
+        color: red;
+        margin-left: .5rem;
+        font-style: italic;
+      }
     }
 
     & .form__actions--container {
