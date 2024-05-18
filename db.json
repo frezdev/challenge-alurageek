@@ -83,9 +83,22 @@
       "price": 9.99,
       "image": "https://raw.githubusercontent.com/andresdeveloper01/alura-geek-images/main/consola6.png",
       "category": "consolas"
+    },
+    {
+      "name": "Star Wars 7",
+      "image": "https://exitocol.vtexassets.com/arquivos/ids/22594233/Juguete-STAR-WARS-3428093_c.jpg",
+      "price": "10",
+      "category": "starwars",
+      "id": 13
+    },
+    {
+      "name": "Star Wars 8",
+      "image": "https://http2.mlstatic.com/D_NQ_NP_959354-MCO45415922864_042021-O.webp",
+      "price": "7",
+      "category": "starwars",
+      "id": 14
     }
   ],
-
   "categories": [
     {
       "id": 1,

@@ -23,7 +23,7 @@ export class Products {
   static async create ({name, image, price, category}) {
 
     const config = {
-      method: 'PORT',
+      method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({name, image, price, category})
     }
