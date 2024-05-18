@@ -44,7 +44,7 @@
       <form action="" class="form" data-form>
         <h2 class="form__title">AGREGAR<br />PRODUCTO:</h2>
         <label for="name">
-          <input id="name" name="name" type="text" placeholder="nombre..." required>
+          <input id="name" name="name" type="text" placeholder="nombre..." required minlength="5">
           <span class="input__error--message"></span>
         </label>
 
@@ -59,11 +59,12 @@
         </label>
 
         <label for="category">
-          <select name="category" id="category">
-            <option>Categoria...</option>
+          <select name="category" id="category" required>
+            <option value="">Categoria...</option>
             <option value="consolas">Consolas</option>
             <option value="starwars">Star Wars</option>
           </select>
+          <span class="input__error--message"></span>
         </label>
 
         <div class="form__actions--container">
